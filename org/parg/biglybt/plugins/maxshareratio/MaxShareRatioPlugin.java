@@ -134,9 +134,7 @@ MaxShareRatioPlugin
 							return( isBlocked( torrent_hash, InetAddress.getByName( ip )));
 							
 						}catch( Throwable e ){
-							
-							Debug.out( e );
-							
+														
 							return( false );
 						}
 					}
